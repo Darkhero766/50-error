@@ -1,0 +1,7 @@
+{
+  "name": "vibesane-coverage",
+  "dependencies": {
+    "wildcard-package": "*",
+    "git-package": "git+https://github.com/fake/vibesane-test.git"
+  }
+}
