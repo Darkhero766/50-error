@@ -1,0 +1,2 @@
+FROM node:24-alpine
+VOLUME ["/var/run/docker.sock:/var/run/docker.sock"]
