@@ -1,0 +1,14 @@
+# VULN-37: fake npmrc credential
+//registry.npmjs.org/:_authToken=npm_FAKE_TEST_TOKEN
+
+# VULN-38: Docker socket exposure
+-v /var/run/docker.sock:/var/run/docker.sock
+
+# VULN-39: MD5
+md5(password)
+
+# VULN-40: SHA-1
+sha1(password)
+
+# VULN-41: Math.random used as a security token
+const csrfToken = Math.random().toString(36);
