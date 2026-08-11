@@ -1,0 +1,8 @@
+{
+  "name": "vibeguard-test-fixtures",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "*",
+    "example-git-package": "git+https://github.com/example/example.git"
+  }
+}
