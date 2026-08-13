@@ -6,6 +6,6 @@ Second harmless change to trigger the VibeSane PR delta scan.
 
 Third harmless change to verify only newly introduced findings block the PR.
 
-## Deliberate scanner test
+## Scanner test cleaned up
 
-const testApiKey = "sk_test_51H8VibeSaneDemo1234567890abcdef";
+The deliberate scanner-test secret has been removed after validating that VibeSane blocks the PR when a new finding is introduced.
