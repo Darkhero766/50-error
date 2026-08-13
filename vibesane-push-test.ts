@@ -1,7 +1,5 @@
-// Safe test fixture for VibeSane active protection.
-// Uses a cryptographically secure token generator.
-import { randomUUID } from "node:crypto";
-
+// INTENTIONAL VULNERABILITY TEST — do not merge.
+// This fixture is deliberately insecure so VibeSane should flag it.
 export function generateTestToken(): string {
-  return randomUUID();
+  return Math.random().toString(36).slice(2);
 }
