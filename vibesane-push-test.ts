@@ -1,6 +1,7 @@
-// Intentional test fixture for VibeSane active protection.
-// This should trigger the Math.random security check.
-// Active protection verification: push event test #2.
+// Safe test fixture for VibeSane active protection.
+// Uses a cryptographically secure token generator.
+import { randomUUID } from "node:crypto";
+
 export function generateTestToken(): string {
-  return Math.random().toString(36).slice(2);
+  return randomUUID();
 }
